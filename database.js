@@ -55,7 +55,6 @@ app.post('/translate',function(req,res) {
     responseType: 'json'
   };
   axios(payload).then(function(response){
-    console.log(JSON.stringify(response.data, null, 4));
     res.send(response.data);
   })
 })
