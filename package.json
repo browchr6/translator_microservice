@@ -1,0 +1,22 @@
+{
+  "name": "translator_microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Brown",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.13.2",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
