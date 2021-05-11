@@ -25,7 +25,7 @@ var location = "westus2";
     - text: text to be translated
 */
 
-app.post('/translate',function(req,res) {
+app.post('/',function(req,res) {
   // substitute fromt, to,text from request body
   if (!requesterKeySet.has(req.body.key)) {
     res.send('Please contact the administration to get a valid key to use the tranlsation service');
