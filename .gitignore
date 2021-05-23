@@ -1,8 +1,11 @@
-#azure key credentials
-azureKey.js
+# Local development
+*.env
+*.dev
+.DS_Store
 
-#request keys
-requesters.js
+# Docker
+Dockerfile
+docker-compose.yml
 
 # Logs
 logs
@@ -46,6 +49,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+npm-debug.log
 
 # TypeScript v1 declaration files
 typings/
