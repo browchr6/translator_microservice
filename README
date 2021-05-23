@@ -1,0 +1,23 @@
+you need to send a post request with JSON obj:
+{
+    "from":"language code",
+    "to":"language code",
+    "text":"Text to translate",
+    "key":"access_key"
+    }   
+
+and will return:
+[{
+    "detectedLanguage":{
+        "language":"language code",
+        "score": integer from 0-1 with 1 being very certain to 0 being uncertain
+        },
+    "translations":[{
+        "text":"Translated Text",
+        "to":"language code"
+        }]
+    }]
+
+The language code can be found here: https://api.cognitive.microsofttranslator.com/languages?api-version=3.0
+
+You must request an access_key through me if you want to use this service
